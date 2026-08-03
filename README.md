@@ -14,7 +14,7 @@ The project demonstrates how an ecommerce measurement architecture can be planne
 
 * **Staging Website:** https://dev-emre-analytics-lab.pantheonsite.io/
 * **Looker Studio Dashboard:** https://datastudio.google.com/reporting/993b9423-671e-455e-a6cb-0db83093668d
-* **Measurement Plan:** [Download the Excel measurement plan](./measurement-plan/Dev_Emre_Analytics_Lab_Measurement_Plan.xlsx)
+* **Measurement Plan:** [Download the Excel measurement plan](./measurement plan/Dev_Emre_Analytics_Lab_Measurement_Plan.xlsx)
 
 ---
 
@@ -95,7 +95,7 @@ The CookieYes configuration also includes:
 
 These are supplementary privacy and measurement controls. They do not replace explicit consent or guarantee complete attribution preservation.
 
-![Consent Mode validation](./screenshots/consent/rejected-cookies.png)
+![Consent Mode validation](./screenshots/consent/merged-denied-granted.png)
 
 ---
 
@@ -237,7 +237,7 @@ The dashboard includes:
 * Product-funnel reporting
 * Date-range controls
 
-![Looker Studio dashboard](./screenshots/dashboard/07-looker-studio-dashboard.png)
+![Looker Studio dashboard](./screenshots/dashboard/dashboard.png)
 
 ---
 
@@ -247,13 +247,13 @@ The public repository contains a focused evidence set rather than screenshots of
 
 | Area            | Evidence                                                                                       |
 | --------------- | ---------------------------------------------------------------------------------------------- |
-| Consent Mode v2 | [Default and updated consent states](./screenshots/consent/01-consent-mode-validation.png)     |
-| Add-to-cart     | [Product-page add-to-cart validation](./screenshots/ecommerce/02-add-to-cart-product-page.png) |
-| Checkout        | [Begin-checkout validation](./screenshots/ecommerce/03-begin-checkout.png)                     |
-| GA4 purchase    | [Purchase event and ecommerce parameters](./screenshots/ecommerce/04-purchase-ga4.png)         |
-| Google Ads      | [Purchase conversion routing](./screenshots/google-ads/05-google-ads-purchase-routing.png)     |
-| User-ID         | [Authenticated and logged-out lifecycle](./screenshots/identity/06-user-id-lifecycle.png)      |
-| Reporting       | [Looker Studio executive dashboard](./screenshots/dashboard/07-looker-studio-dashboard.png)    |
+| Consent Mode v2 | [1. Default (Denied)](./screenshots/consent/01-consent-default-denied.png) <br> [2. Updated (Granted)](./screenshots/consent/02-consent-accept-granted.png) |
+| Add-to-cart     | [Product-page add-to-cart validation](./screenshots/e-commerce/04_cart_page.png) |
+| Checkout        | [Begin-checkout validation](./screenshots/e-commerce/08_begin_checkout.png)                     |
+| GA4 purchase    | [Purchase event and ecommerce parameters](./screenshots/e-commerce/09_purchase.png)         |
+| Google Ads      | [Purchase conversion routing](./screenshots/google-ads/google-ads-conversion.png)     |
+| User-ID         | [Authenticated and logged-out lifecycle](./screenshots/identity/privacy-and-userid-blurred.png)      |
+| Reporting       | [Looker Studio executive dashboard](./screenshots/dashboard/dashboard.png)    |
 
 Sensitive values such as test email addresses, pseudonymous identifiers, hashes, cookies and authentication tokens are not exposed in the public evidence.
 
@@ -324,7 +324,7 @@ dev-emre-analytics-lab/
 │   ├── identity/
 │   └── dashboard/
 └── gtm-export/
-    └── dev-emre-analytics-lab-container-v2.json
+    └── dev-emre-analytics-lab-container.json
 ```
 
 ---
