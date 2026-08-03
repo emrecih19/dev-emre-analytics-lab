@@ -14,7 +14,7 @@ The project demonstrates how an ecommerce measurement architecture can be planne
 
 * **Staging Website:** https://dev-emre-analytics-lab.pantheonsite.io/
 * **Looker Studio Dashboard:** https://datastudio.google.com/reporting/993b9423-671e-455e-a6cb-0db83093668d
-* **Measurement Plan:** [Download the Excel measurement plan](./measurement plan/Dev_Emre_Analytics_Lab_Measurement_Plan.xlsx)
+* **Measurement Plan:** [Download the Excel measurement plan](./measurement-plan/Dev_Emre_Analytics_Lab_Measurement_Plan.xlsx)
 
 ---
 
