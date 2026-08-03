@@ -95,7 +95,7 @@ The CookieYes configuration also includes:
 
 These are supplementary privacy and measurement controls. They do not replace explicit consent or guarantee complete attribution preservation.
 
-![Consent Mode validation](./screenshots/consent/rejected cookies.png)
+![Consent Mode validation](./screenshots/consent/rejected-cookies.png)
 
 ---
 
