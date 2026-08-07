@@ -86,12 +86,7 @@ The validation confirmed that:
 * All four signals are denied by default.
 * Relevant signals update after explicit user consent.
 * Consent preferences persist across subsequent navigation.
-* Google measurement tags are gated according to the configured Basic Mode architecture.
-
-The CookieYes configuration also includes:
-
-* `ads_data_redaction`
-* `url_passthrough`
+* Google measurement tags are gated according to the configured Basic Mode architecture.
 
 These are supplementary privacy and measurement controls. They do not replace explicit consent or guarantee complete attribution preservation.
 
@@ -103,8 +98,7 @@ These are supplementary privacy and measurement controls. They do not replace ex
 
 The validated ecommerce measurement flow covers:
 
-* `page_view`
-* `view_item`
+* `page_view`
 * `add_to_cart`
 * `begin_checkout`
 * `purchase`
