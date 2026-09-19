@@ -12,7 +12,7 @@ The project demonstrates how an ecommerce measurement architecture can be planne
 
 ## Live Project Resources
 
-* **Staging Website:** https://dev-emre-analytics-lab.pantheonsite.io/
+* **Staging Website:** [https://solsticejewelry.freehosting.dev/](https://solsticejewelry.freehosting.dev/)
 * **Looker Studio Dashboard:** https://datastudio.google.com/reporting/993b9423-671e-455e-a6cb-0db83093668d
 * **Measurement Plan:** [Download the Excel measurement plan](./measurement-plan/Dev_Emre_Analytics_Lab_Measurement_Plan.xlsx)
 
@@ -86,7 +86,8 @@ The validation confirmed that:
 * All four signals are denied by default.
 * Relevant signals update after explicit user consent.
 * Consent preferences persist across subsequent navigation.
-* Google measurement tags are gated according to the configured Basic Mode architecture.
+* Google measurement tags are gated according to the configured Basic Mode architecture.
+
 
 These are supplementary privacy and measurement controls. They do not replace explicit consent or guarantee complete attribution preservation.
 
@@ -98,7 +99,8 @@ These are supplementary privacy and measurement controls. They do not replace ex
 
 The validated ecommerce measurement flow covers:
 
-* `page_view`
+* `page_view`
+
 * `add_to_cart`
 * `begin_checkout`
 * `purchase`
